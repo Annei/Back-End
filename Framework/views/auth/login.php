@@ -18,7 +18,7 @@
     <link rel="shortcut icon" href="">
 </head>
 <body>
-    <form class="" method="POST" action="login">
+    <form class="" method="POST" action="login" id="login">
     <div class="main flex">
         <div class="column login">
 
@@ -68,12 +68,18 @@
                                     <div class="white-space-32"></div>
 
                                     
-                                    <?php if (isset($this->error)): ?>
-                                        <div class="row-responsive justify-center">
+                                    <?php if (isset($this->error)):
+                                        //Codigo js para alert con import de librerias
+                                        include './views/alerts/Headers.php';
+                                        echo '<script type="text/javascript">';
+                                        echo 'setTimeout(function () { swal("Datos incorrectos!","Intente de nuevo","error");';
+                                        echo '}, 800);</script>';
+                                        ?>
+                                        <!--<div class="row-responsive justify-center">
                                             <div class="column text-left ">
-                                                <p class=""><?php echo $this->error; ?></p>
+                                                <p class=""><?php //echo $this->error; ?></p>
                                             </div>
-                                        </div>
+                                        </div>-->
 
                                         <div class="white-space-32"></div>
                                     <?php endif ?>
