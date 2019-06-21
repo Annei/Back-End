@@ -40,6 +40,7 @@ class AlumnoController extends Controller
 		}
 		
 	}
+	
 
 
 // VICTOR MALVADO

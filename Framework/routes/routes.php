@@ -10,6 +10,7 @@
 
 	$this->newRoute('alumnos/datos','alumno/alumnoController','datosGenerales');
 	$this->newRoute('alumnos/kardex', 'kardex/kardexController','getKardex');
+	$this->newRoute('alumnos/carga-academica','carga/cargaController','academicDataMethod');
 
 
 ?>

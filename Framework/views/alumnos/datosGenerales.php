@@ -35,7 +35,7 @@
                             </div>
                             <div class="row item-left justify-center">
                                 <div class = "column">
-                                    <h4 class="color-white weight-regular font-small"><a href="<?php echo constant('URL'); ?>xd">Carga académica</a></h4>
+                                    <h4 class="color-white weight-regular font-small"><a href="<?php echo constant('URL'); ?>alumnos/carga-academica">Carga académica</a></h4>
                                 </div>                        
                             </div>
                             <div class="row item-left justify-center">
@@ -45,7 +45,7 @@
                             </div>
                             <div class="row item-left justify-center">
                                 <div class="column">
-                                    <h4 class="color-white weight-regular font-small"><a href="<?php echo constant('URL'); ?>xd">Kardex</a></h4>
+                                    <h4 class="color-white weight-regular font-small"><a href="<?php echo constant('URL'); ?>alumnos/kardex">Kardex</a></h4>
                                 </div>
                             </div>
                             <div class="row item-left justify-center">
@@ -87,7 +87,7 @@
                                     <div class="row auto">
                                         <div class="column auto">
                                             <h1 class="color-white font-large"><?php echo $this->datos['nombre']; ?></h1>
-                                            <h3 class="color-white font-medium weight-regular">Ing. Software</h3>
+                                            <h3 class="color-white font-medium weight-regular"></h3>
                                         </div>  
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@
                                     <div class="white-space-24"></div>
                                     <h4 class="color-darkgray weight-bold font-small">Cr&eacute;ditos acumulados</h4>
                                     <p class="color-darkgray weight-regular">
-                                        297.0
+                                     
                                     </p>
                                     <div class="white-space-24"></div>
                                     <h4 class="color-darkgray weight-bold font-small text-left">Matricula</h4>

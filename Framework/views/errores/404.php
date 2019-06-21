@@ -22,7 +22,7 @@
         <div class="column errors justify-center align-center">
         <div class="container column">
                 <div class="kristen-img justify-center responsive-img">
-                    <img src="http://new.upqroo.edu.mx/assets/img/kristen.png" alt="Kristen es linda" title="Kristen es linda">
+                    <img src="../public/img/kristen.png" alt="Kristen es linda" title="Kristen es linda">
                 </div>
                 <div class="white-space-32"></div>
                 <h2 class="text-center">
