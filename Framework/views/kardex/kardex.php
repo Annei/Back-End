@@ -19,82 +19,102 @@
 </head>
 <body>
     <div class="main flex">
-        <div class="column kardex">
+        <div class="column kardex full">
             <div class="row-responsive">
-                
-                <div class="column menu-left align-center justify-center">
-                    <div class="white-space-24"></div>
-                    <div class="responsive-img item-left justify-center align-center">
-                        <img src="<?php echo constant('URL'); ?>public/img/upqroo-newlogo@2x.png" alt="responsive img" title="responsive img" class="cover-img "/>
+                    <div class="column menu-left align-center justify-center">
+                            <div class="white-space-24"></div>
+                            <div class="responsive-img item-left justify-center align-center">
+                                <img src="<?php echo constant('URL'); ?>public/img/upqroo-newlogo@2x.png" alt="responsive img" title="responsive img" class="cover-img "/>
+                            </div>
+                            <div class="white-space-32"></div>
+                            <div class="white-space-16"></div>
+                            <div class="column main align-center auto">
+                            <a href="profile.html" class="item-left ">
+                                <div class="row  justify-center align-start">
+                                    <div class = "column full">
+                                        <h4 class="color-white weight-regular font-small">Datos generales</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="carga-academica.html" class="item-left ">
+                                <div class="row justify-center">
+                                    <div class = "column full">
+                                        <h4 class="color-white weight-regular font-small">Carga académica</h4>
+                                    </div>                        
+                                </div>
+                            </a>
+                            <a href="calificaciones.html" class="item-left ">
+                                <div class="row justify-center">
+                                    <div class = "column full">
+                                        <h4 class="color-white weight-regular font-small">Calificaciones</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="kardex.html" class="item-left ">
+                                <div class="row justify-center">
+                                    <div class="column full">
+                                        <h4 class="color-white weight-regular font-small">Kardex</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="horario.html" class="item-left ">
+                                <div class="row justify-center">
+                                    <div class = "column full">
+                                        <h4 class="color-white weight-regular font-small">Horario</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="noticias.html" class="item-left ">
+                                <div class="row justify-center">
+                                    <div class = "column full">
+                                        <h4 class="color-white weight-regular font-small">Noticias</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="formatos.html" class="item-left ">
+                                <div class="row justify-center">
+                                    <div class = "column full">
+                                        <h4 class="color-white weight-regular font-small">Formatos</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="" class="item-left ">
+                                <div class="row justify-center">
+                                    <div class = "column full">
+                                        <h4 class="color-white weight-regular font-small">Correo Institucional</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="login.html" class="item-left ">
+                                <div class="row item-left justify-center">
+                                    <div class = "column full">
+                                        <h4 class="color-white weight-regular font-small">Cerrar Sesión</h4>
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
                     </div>
-                    <div class="white-space-32"></div>
-                    <div class="white-space-16"></div>
-                    <div class="column main align-center auto">
-                        <div class="row item-left justify-center align-start">
-                            <div class = "column">
-                                <h4 class="color-white weight-regular font-small">Datos generales</h4>
-                            </div>
-                        </div>
-                        <div class="row item-left justify-center">
-                            <div class = "column">
-                                <h4 class="color-white weight-regular font-small">Carga académica</h4>
-                            </div>                        
-                        </div>
-                        <div class="row item-left justify-center">
-                            <div class = "column">
-                                <h4 class="color-white weight-regular font-small">Calificaciones</h4>
-                            </div>
-                        </div>
-                        <div class="row item-left justify-center">
-                            <div class="column">
-                                <h4 class="color-white weight-regular font-small">Kardex</h4>
-                            </div>
-                        </div>
-                        <div class="row item-left justify-center">
-                            <div class = "column">
-                                <h4 class="color-white weight-regular font-small">Horario</h4>
-                            </div>
-                        </div>
-                        <div class="row item-left justify-center">
-                            <div class = "column">
-                                <h4 class="color-white weight-regular font-small">Noticias</h4>
-                            </div>
-                        </div>
-                        <div class="row item-left justify-center">
-                            <div class = "column">
-                                <h4 class="color-white weight-regular font-small">Formatos</h4>
-                            </div>
-                        </div>
-                        <div class="row item-left justify-center">
-                            <div class = "column">
-                                <h4 class="color-white weight-regular font-small">Correo Institucional</h4>
-                            </div>
-                        </div>
-                        <div class="row item-left justify-center">
-                            <div class = "column">
-                                <h4 class="color-white weight-regular font-small">Cerrar Sesión</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!--./ blue menu-->
-              
                 <div class="column align-center">
                         <div class="row-responsive justify-center header-tittle align-center" style="background-image: url(<?php echo constant('URL'); ?>/public/img/new-footer-blue.png)">
-                            <div class="container-data align-center header-content justify-between"">
+                            <div class="container-data align-center header-content justify-between">
                                 <div class="row auto">
                                     <div class="column auto justify-center">
                                         <h1 class="color-white weight-bold">Kardex</h1>
                                     </div>  
                                 </div>
                                 <div class="row auto">
-                                        <button type="submit" class="btn btn-admin bg-darkBlue color-white font-regular weight-semi">Imprimir kardex</button>
+                                        <button type="submit" class="btn btn-admin bg-darkBlue color-white font-regular weight-semi">
+                                            <i class="fas fa-print icon-btn"></i>
+                                            Imprimir kardex
+                                        </button>
                                 </div>
                             </div>
                         </div>
                     
                     <div class="white-space-24"></div>
+
                     <div class="row-responsive container-data">
-                        <div class="column">
+                        <div class="column full">
                             <div class="row-responsive">
                                 <div class="column card-data justify-center">
                                     <div class="row">
@@ -111,7 +131,7 @@
                                 <div class="column card-data justify-center">
                                     <div class="row">
                                         <div class="column align-start justify-center">
-                                            <h4><?php echo $this->datos[0]['creditos'] ?></h4>
+                                            <h4><?php echo $this->creditos; ?></h4>
                                             <div class="white-space-16"></div>
                                             <p class="color-darkBlue font-small">Cr&eacute;ditos acumulados</p>
                                         </div>
@@ -123,7 +143,7 @@
                                 <div class="column card-data justify-center">
                                     <div class="row">
                                         <div class="column align-start justify-center">
-                                            <h4><?php echo $this->datos[1]['porcentaje'] ?> %</h4>
+                                            <h4><?php echo $this->porcentaje; ?> %</h4>
                                             <div class="white-space-16"></div>
                                             <p class="color-darkBlue font-small">Porcentaje de Avance</p>
                                         </div>
@@ -135,7 +155,7 @@
                                 <div class="column card-data justify-center">
                                     <div class="row">
                                         <div class="column align-start justify-center">
-                                            <h4><?php echo $this->datos[2]['promedio'] ?></h4>
+                                            <h4><?php echo $this->promedio; ?></h4>
                                             <div class="white-space-16"></div>
                                             <p class="color-darkBlue font-small">Promedio Total</p>
                                         </div>
@@ -146,9 +166,12 @@
                                 </div>
                                 
                             </div> <!--/.cards-->
+
                             <div class="white-space-24"></div>
+
                             <div class="row">
-                                <div class="column">
+                                <div class="column full">
+                                    <div class="table-responsive">
                                     <table>
                                         <thead>
                                             <tr>
@@ -156,53 +179,127 @@
                                                 <th>Materia</th>
                                                 <th>Calificacion</th>
                                                 <th>Op.</th>
-                                                <th>Cuatrimestres</th>
+                                                <th>Cuatrimestre</th>
                                                 <th>Periodo</th>
                                                 <th>Especial</th>
                                             </tr>
                                         </thead>
                                         <tbody class="capitalize">
-                                            <?php
-                                            $aux = 0;
-                                            foreach ($this->datos as $dato){
-                                                if($aux > 2){
-                                                    $clave = $dato['claveMat'];
-                                                    $materia = $dato['nombreMat'];
-                                                    $calificacion = $dato['calfMat'];
-                                                    $oportunidad = $dato['opMat'];
-                                                    $periodo = $dato['periodPri'];
-                                                    $cuatrimestre = $dato['cuatriPri'];
-                                                    $segundo_oportunidad = $dato['periodSeg'];
-                                                    $segundo_oportunidad_semestre = $dato['cuatriSeg'];
-                                                    $especial = $dato['especial'];
-                                            ?>
-                                            <tr>
-                                                <td><?php echo $clave; ?></td>
-                                                <td><?php echo $materia; ?></td>
-                                                <td><?php echo $calificacion; ?></td>
-                                                <td><?php echo $oportunidad; ?></td>
-                                                <td><?php echo $cuatrimestre; ?></td>
-                                                <td><?php echo $periodo; ?></td>
-                                                <td><?php echo $especial; ?></td>
-                                            <?php
+                                                <?php
+                                                $aux = 0;
+                                                foreach ($this->datos as $dato){
+                                                    if($aux > 2){
+                                                        $clave = $dato['claveMat'];
+                                                        $materia = $dato['nombreMat'];
+                                                        $calificacion = $dato['calfMat'];
+                                                        $oportunidad = $dato['opMat'];
+                                                        $periodo = $dato['periodPri'];
+                                                        $cuatrimestre = $dato['cuatriPri'];
+                                                        $segundo_oportunidad = $dato['periodSeg'];
+                                                        $segundo_oportunidad_semestre = $dato['cuatriSeg'];
+                                                        $especial = $dato['especial'];
+                                                ?>
+                                                <tr>
+                                                    <td><?php echo $clave; ?></td>
+                                                    <td><?php echo $materia; ?></td>
+                                                    <td><?php echo $calificacion; ?></td>
+                                                    <td><?php echo $oportunidad; ?></td>
+                                                    <td><?php echo $cuatrimestre; ?></td>
+                                                    <td><?php echo $periodo; ?></td>
+                                                    <td><?php echo $especial; ?></td>
+                                                <?php
+                                                    }
+                                                    $aux = $aux + 1;
                                                 }
-                                                $aux = $aux + 1;
-                                            }
-                                            
-                                            ?>
+                                                
+                                                ?>
                                             </tr>
                                         </tbody>
                                     </table>
+                                    </div>
                                 </div>
-                            </div> <!--/.tabla kardex-->
-                            
-                            <div class="white-space-24"></div>
+                            </div> <!--/.tabla kardex-->                            
+                            <div class="white-space-16"></div>
+                            <h3 class="uppercase color-darkBlue">
+                                Materias pendientes
+                            </h3>
+                            <div class="white-space-16"></div>
+                            <div class="row">
+                                <div class="column full">
+                                    <div class="table-responsive">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Clave</th>
+                                                <th>Materia</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="capitalize">
+                                           
+                                            <tr>
+                                                <td> ADM </td>
+                                                <td> Ecuaciones diferenciales </td>
+                                               
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td> ADM </td>
+                                                <td> Habilidades organizacionales </td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td> ADM </td>
+                                                <td> Administracion </td>
+                                             
+                                            </tr>
+                                            <tr>
+                                                    <td> ADM </td>
+                                                    <td> Habilidades organizacionales </td>
+                                                   
+                                                </tr>
+                                                <tr>
+                                                    <td> ADM </td>
+                                                    <td> Administracion </td>
+                                                  
+                                                </tr>
+                                                <tr>
+                                                        <td> ADM </td>
+                                                        <td> Habilidades organizacionales </td>
+                                                       
+                                                    </tr>
+                                                    <tr>
+                                                        <td> ADM </td>
+                                                        <td> Administracion </td>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                            <td> ADM </td>
+                                                            <td> Habilidades organizacionales </td>
+                                                           
+                                                        </tr>
+                                                        <tr>
+                                                            <td> ADM </td>
+                                                            <td> Administracion </td>
+                                                          
+                                                        </tr>
+                                                       
+                                                            
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                </div>
+                            </div> <!--/.tabla kardex-->     
+                            <div class="white-space-64"></div>
+
                         </div>
                     </div> <!--/.content-->
                     
                 </div>
             </div> <!--/.row-responsive-->
         </div> <!--/.column kardex-->
+
     </div> <!--/.main flex-->
     
 </body>

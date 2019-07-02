@@ -28,7 +28,15 @@ class KardexController extends Controller
 	public function getKardex(){
 		if ($this->validatorAuth($this->auth)) {
 			$datos = $this->model->kardex($_SESSION['usuario']['matricula']);
+			$creditos = $this->model->creditos($_SESSION['usuario']['matricula']);
+			$porcentaje = $this->model->porcentaje($_SESSION['usuario']['matricula']);
+			$promedio = $this->model->promedio($_SESSION['usuario']['matricula']);
+			#$dbfData = $this->model->getMateriasKardex(2,'B');
+			#$materias_pendientes = $this->model->materiasPendientes();
+			$this->view->creditos = $creditos;
+			$this->view->porcentaje = $porcentaje;
 			$this->view->datos = $datos;
+			$this->view->promedio = $promedio;
 			$this->render();
 		}else{
 			$this->localRedirect('login');

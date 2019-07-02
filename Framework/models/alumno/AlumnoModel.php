@@ -219,7 +219,7 @@ class AlumnoModel extends Model
                      // $aux = $fila;
                      $aux = [
                            'estudia' => "0".$fila["CARCVE"].$fila["PLACVE"].$fila["CALNPE"].$fila["CALGPO"]
-                     ];
+                     ];															# estos necesitos
                      break;
              }
          }
